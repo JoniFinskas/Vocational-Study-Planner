@@ -52,3 +52,5 @@ This project is archived and is not under active development. The build setup wa
 ## License
 
 No open-source license is granted. The repository may be viewed for portfolio review, but copying, modification, redistribution, or reuse is not permitted without permission from the relevant rights holders. All rights are reserved by the respective contributors.
+
+Third-party software and assets retain their original licenses. Open Sans is distributed under the SIL Open Font License 1.1. See [`public/THIRD_PARTY_NOTICES.txt`](public/THIRD_PARTY_NOTICES.txt).
