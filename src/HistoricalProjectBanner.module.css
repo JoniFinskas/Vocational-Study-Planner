@@ -1,0 +1,10 @@
+.banner {
+    padding: 0.65rem 1rem;
+    border-bottom: 1px solid #c7d5e5;
+    background: #edf4fb;
+    color: #17324d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    text-align: center;
+}

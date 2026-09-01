@@ -1,0 +1,132 @@
+.opintoVuodetContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.opintoVuodetContainerColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.degreeYearBox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    padding: 24px 12px;
+    height: fit-content;
+}
+
+@media screen and (max-width: 1400px) {
+    .degreeYearBox {
+        padding: 0;
+    }
+}
+
+.degreeYearBoxHeader {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+@media screen and (max-width: 1400px) {
+    .degreeYearBoxHeader {
+        margin-bottom: 0;
+    }
+}
+.degreeYearBoxHeader > * {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+.degreeYearBoxRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2px;
+    flex-wrap: wrap;
+    row-gap: 12px;
+}
+
+.ovMenuHolder {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.ovMenu {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.ovButton {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    padding: 0.4em 0;
+    color: #F28D00;
+    text-shadow: 1px 1px 1px black;
+
+}
+.ovButton:hover {
+    text-decoration: underline;
+}
+.infoTxt {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    margin: 0 1em 0 0;
+    font-style: italic;
+}
+.addNewYearBtnBox {
+    width: 5em;
+    height: 5em;
+    margin: 6px;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    background-color: #f2f2f2;
+    border: .25em dashed transparent;
+    border-radius: 1em;
+    opacity: .5;
+}
+.addNewYearBtnBox:hover {
+    background-color: #ececec;
+    border-color: darkgreen;
+    opacity: 1;
+}
+
+.addNewYearBtn {
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: .2em;
+    outline: none;
+    font-size: 42px;
+    color: darkgreen;
+}
+
+.removeCurrentYearBtn {
+    border: none;
+    display: grid;
+    place-items: center;
+    background: none;
+    cursor: pointer;
+    color: darkred;
+    padding: 0;
+    margin: 0 0 0 auto;
+    font-size: 22px;
+}
+.removeCurrentYearBtn:hover :is(svg) {
+    color: #620202;
+}

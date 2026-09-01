@@ -1,0 +1,52 @@
+.YCholder {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: #e0e0e0;
+    width: 100px;
+    margin-left: -10px;
+}
+.YCholder > :is(input)::-webkit-outer-spin-button,
+.YCholder > :is(input)::-webkit-inner-spin-button,
+.YCholder > :is(input[type=number]) {
+    appearance: none;
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+}
+.YCholder > :is(input) {
+    outline: none;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+    width: 80%;
+    height: 100%;
+    background: none;
+    padding: 0;
+    color: #F28D00;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+.ABcolumn {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 0;
+}
+
+
+.arrowButton {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    height: 50%;
+    color: #F28D00;
+    text-shadow: 1px 1px 1px black;
+    background-color: #e0e0e0;
+    font-size: 16px;
+}
+.arrowButton:hover {
+    background-color: #bebebe;
+}

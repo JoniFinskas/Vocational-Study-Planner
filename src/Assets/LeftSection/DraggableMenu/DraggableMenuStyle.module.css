@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    gap: 3px;
+}
+
+.dragHeader {
+    background-color: #083464;
+    padding: 6px 8px;
+}
+.dragHeader  :is(p,h1,h2,h3,h4,span,b,i) {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}

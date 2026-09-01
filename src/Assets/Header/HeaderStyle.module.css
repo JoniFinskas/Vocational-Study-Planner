@@ -1,0 +1,126 @@
+.header {
+    display: flex;
+    background-color: #083464;
+    padding: 0.5em 1em;
+    width: 100%;
+    height: 65px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.title {
+    margin: 0;
+    margin-left: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+.divider {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    display: block;
+    width: calc(24px / 10);
+    height: 24px;
+    margin: 0 0 0 26px;
+}
+@media screen and (max-width: 1400px) {
+    .title {
+        font-size: 20px;
+    }
+    .divider {
+        height: 20px;
+        width: 2px !important;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .title,
+    .divider {
+        margin: 0 0 0 14px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        text-align: left;
+        font-size: 18px;
+        width: 160px;
+        margin: 0;
+        padding-left: 12px;
+    }
+    .divider {
+        margin: 0 12px;
+        height: 48px;
+    }
+}
+.iBlock {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.menu {
+    border: 2px solid #00000090;
+}
+.toggle {
+    width: 140px !important;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.toggle,
+.slideBox button {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.3em 1em;
+    font-size: 11pt;
+    border: none;
+    border-bottom: 1px solid #00000090;
+    cursor: pointer;
+}
+
+.slideBox button {
+    gap: 1em;
+}
+
+.toggle:hover,
+.slideBox button:hover {
+    background-color: #ebebeb;
+}
+
+.slideBox {
+    padding-top: 0.1em;
+    box-sizing: border-box;
+    width: 140px !important;
+}
+
+.InfoButton {
+    background: none;
+    border: none;
+    outline: none;
+    color: #f28d00;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    padding: 0;
+    margin-left: 2em;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.InfoButton:hover {
+    text-decoration: underline;
+}
+
+.InfoButton span {
+    margin-right: 0 !important;
+}
+
+.InfoButton svg {
+    margin-left: 0;
+}

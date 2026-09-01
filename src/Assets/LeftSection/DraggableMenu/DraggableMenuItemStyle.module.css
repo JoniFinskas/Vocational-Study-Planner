@@ -1,0 +1,80 @@
+.menuItem {
+    border: '1px solid red';
+    cursor: move;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: .2em .5em;
+    border-radius: .5em;
+}
+.menuItem:hover {
+    background-color: #ebebeb;
+}
+
+.menuItem :is(p,h1,h2,h3,h4,span,b,i) {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0!important;
+    margin: 0;
+    user-select: none;
+}
+.selectedItem {
+    opacity: .4
+}
+.menuItem :is(svg) {
+    margin-left: 10px;
+}
+.requiredColor {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #0000003e;
+    border-radius: 50%;
+}
+.rowItem {
+    display: grid;
+    place-items: center;
+    max-width: 68%;
+}
+.rowItem > p {
+    font-size: 11pt;
+}
+.op {
+    margin-left: auto;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.op * {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.pakollinen {
+    background-color: orange;
+}
+.valinnainen {
+    background-color: lightblue;
+}
+.sqr {
+    margin-right: 10px;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #0000003e;
+}
+.amm {
+    background-color: #008000;
+}
+.yto {
+    background-color: #c1c70f;
+}
+.subTitle {
+    font-family: 'Open Sans', sans-serif;
+    padding: .25em 2em .25em .5em;
+    display: flex;
+    gap: .5em;
+    background-color: #ebebeb;
+}
+
+.subTitle > span {
+    font-family: 'Open Sans', sans-serif;
+    display: grid;
+    place-items: center;
+}

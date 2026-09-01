@@ -1,0 +1,159 @@
+.yla {
+
+    background-color: whitesmoke;
+    padding: 0;
+}
+.ylaHolder {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---> LEFT SIDE OF THE YLÄ - START */
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: space-between;
+    width: 100%;
+}
+.leftHeader {
+    display: flex;
+    align-items: center;
+    padding: 1em ;
+}
+.leftHeader :is(h2) {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16pt;
+}
+
+/* op.aloitus toggle menu */
+.menu {
+    margin-left: 0!important;
+}
+.toggle {
+    width: 100px!important;
+    font-weight: bold;
+    justify-content: space-between;
+    display: grid;
+    place-items: center;
+}
+.toggle :is(svg) {
+    margin: 0;
+    padding: 0;
+    font-size: 16pt!important;
+}
+.slideBox {
+}
+.toggle,
+.slideBox button {
+    display: flex;
+    align-items: center;
+    background: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal!important;
+    padding: 0.4em .6em;
+    font-size: 13pt;
+    border: none;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    color: #F28D00;
+    text-shadow: 1px 1px 1px black;
+}
+
+.slideBox button {
+    gap: 1em;
+}
+
+.toggle:hover,
+.slideBox button:hover {
+    text-decoration: underline;
+    background-color: #bebebe;
+}
+
+.slideBox  {
+    box-sizing: border-box;
+    width: 100px!important;
+}
+
+
+.actionButton {
+
+}
+.titleHolder {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    background-color: #ebebeb;
+    gap: 1em;
+}
+.titleHolder :is(h3) {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+.buttonListLeft {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+/* LEFT SIDE OF THE YLÄ - END <--- */
+
+
+/* ---> RIGHT SIDE OF THE YLÄ - START */
+
+.periodButtonList {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-left: auto;
+}
+.periodButtonList :is(button) {
+    display: flex;
+    align-items: center;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal!important;
+    padding: 0.4em .6em;
+    font-size: 13pt;
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #F28D00;
+    text-shadow: 1px 1px 1px black;
+}
+.periodButtonList :is(button):hover {
+    text-decoration: underline;
+}
+
+.periodButtonList :is(svg) {
+    font-size: 16pt;
+    margin-left: 10px;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 1500px) {
+    .periodButtonList {
+        gap: 20px;
+    }
+    .periodButtonList .tglBtn {
+        padding: 0;
+    }
+    .periodButtonList .tglBtn > .tglBtnTitle {
+        display: none;
+    }
+    .periodButtonList .tglBtn > :is(svg) {
+        font-size: 22pt;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 1060px) {
+    .periodButtonList {
+        gap: 10px;
+    }
+    .periodButtonList .tglBtn > :is(svg) {
+        font-size: 18pt;
+    }
+}

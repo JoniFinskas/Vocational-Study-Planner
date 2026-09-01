@@ -1,0 +1,334 @@
+{
+    "tutkinto": {
+        "name": "Liiketoiminnan perustutkinto",
+        "degree_name": "Merkonomi",
+        "total_points": 180,
+        "to_id": 3855077
+    },
+    "tutkinnon_osat": {
+        "to_id": 3855077,
+        "tutkinnon_osat": [
+            {
+                "id": 4190733,
+                "name": "Asiakaspalvelu",
+                "points": 20,
+                "required": true,
+                "to_ref": 3929201
+            },
+            {
+                "id": 4196270,
+                "name": "Tuloksellinen toiminta",
+                "points": 20,
+                "required": true,
+                "to_ref": 3929200
+            },
+            {
+                "id": 4196271,
+                "name": "Työyhteisössä toimiminen",
+                "points": 15,
+                "required": true,
+                "to_ref": 3924462
+            },
+            {
+                "id": 4190734,
+                "name": "Asiakkuuksien hoitaminen",
+                "points": 30,
+                "required": false,
+                "to_ref": 3929208
+            },
+            {
+                "id": 4190735,
+                "name": "Finanssipalvelut",
+                "points": 30,
+                "required": false,
+                "to_ref": 3924465
+            },
+            {
+                "id": 4190736,
+                "name": "Henkilöstön tukipalvelut",
+                "points": 15,
+                "required": false,
+                "to_ref": 3924461
+            },
+            {
+                "id": 4190737,
+                "name": "Kirjanpito",
+                "points": 30,
+                "required": false,
+                "to_ref": 3929207
+            },
+            {
+                "id": 4190738,
+                "name": "Kirjaston tieto- ja opastamispalvelut",
+                "points": 30,
+                "required": false,
+                "to_ref": 3924463
+            },
+            {
+                "id": 4190739,
+                "name": "Kirjastopalveluissa toimiminen",
+                "points": 30,
+                "required": false,
+                "to_ref": 3929205
+            },
+            {
+                "id": 4195350,
+                "name": "Laskutus ja reskontra",
+                "points": 15,
+                "required": false,
+                "to_ref": 3924468
+            },
+            {
+                "id": 4195351,
+                "name": "Logistiikkapalvelut",
+                "points": 15,
+                "required": false,
+                "to_ref": 3924469
+            },
+            {
+                "id": 4195352,
+                "name": "Markkinointiviestintä ja sisällöntuotanto",
+                "points": 30,
+                "required": false,
+                "to_ref": 3924464
+            },
+            {
+                "id": 4195353,
+                "name": "Myynti",
+                "points": 30,
+                "required": false,
+                "to_ref": 3929209
+            },
+            {
+                "id": 4195354,
+                "name": "Palkanlaskenta",
+                "points": 30,
+                "required": false,
+                "to_ref": 3929206
+            },
+            {
+                "id": 4195355,
+                "name": "Palvelumuotoilu",
+                "points": 15,
+                "required": false,
+                "to_ref": 3924467
+            },
+            {
+                "id": 4195356,
+                "name": "Projektissa toimiminen",
+                "points": 15,
+                "required": false,
+                "to_ref": 3924466
+            },
+            {
+                "id": 4195358,
+                "name": "Tapahtumatuotanto",
+                "points": 15,
+                "required": false,
+                "to_ref": 3929202
+            },
+            {
+                "id": 4195359,
+                "name": "Tilinpäätöskirjaukset",
+                "points": 15,
+                "required": false,
+                "to_ref": 3929204
+            },
+            {
+                "id": 3202190,
+                "name": "Yritystoiminnan suunnittelu",
+                "points": 15,
+                "required": false,
+                "to_ref": 3929203
+            },
+            {
+                "id": 3202191,
+                "name": "Yrityksessä toimiminen",
+                "points": 15,
+                "required": false,
+                "to_ref": 3929310
+            },
+            {
+                "id": 3202194,
+                "name": "Työpaikkaohjaajaksi valmentautuminen",
+                "points": 5,
+                "required": false,
+                "to_ref": 4183746
+            },
+            {
+                "id": 3202192,
+                "name": "Huippuosaajana toimiminen",
+                "points": 15,
+                "required": false,
+                "to_ref": 4183747
+            },
+            {
+                "id": 3708881,
+                "name": "Viestintä- ja vuorovaikutusosaaminen",
+                "points": 11,
+                "required": true,
+                "to_ref": 4183749,
+                "to_children": [
+                    {
+                        "id": 3548173,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, suomi",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711506,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, saame",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711507,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, viittomakieli",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711508,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, opiskelijan oma äidinkieli",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711509,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, suomi viittomakielisille",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3768210,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, suomi toisena kielenä",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3768211,
+                        "name": "Viestintä ja vuorovaikutus äidinkielellä, romani",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3548174,
+                        "name": "Viestintä ja vuorovaikutus toisella kotimaisella kielellä, ruotsi",
+                        "points": 1,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3768212,
+                        "name": "Det andra inhemska språket, finska",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3548175,
+                        "name": "Viestintä ja vuorovaikutus vieraalla kielellä",
+                        "points": 3,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3548176,
+                        "name": "Toiminta digitaalisessa ympäristössä",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3548177,
+                        "name": "Taide ja luova ilmaisu",
+                        "points": 1,
+                        "required": true,
+                        "to_ref": 0
+                    }
+                ]
+            },
+            {
+                "id": 3708883,
+                "name": "Matemaattis-luonnontieteellinen osaaminen",
+                "points": 6,
+                "required": true,
+                "to_ref": 4183748,
+                "to_children": [
+                    {
+                        "id": 3548178,
+                        "name": "Matematiikka ja matematiikan soveltaminen",
+                        "points": 4,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3548179,
+                        "name": "Fysikaaliset ja kemialliset ilmiöt ja niiden soveltaminen",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    }
+                ]
+            },
+            {
+                "id": 3708884,
+                "name": "Yhteiskunta- ja työelämäosaaminen",
+                "points": 9,
+                "required": true,
+                "to_ref": 4183745,
+                "to_children": [
+                    {
+                        "id": 3711500,
+                        "name": "Yhteiskunnassa ja kansalaisena toimiminen",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711501,
+                        "name": "Työelämässä toimiminen",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711502,
+                        "name": "Opiskelu- ja urasuunnitteluvalmiudet",
+                        "points": 1,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711503,
+                        "name": "Yrittäjyys ja yrittäjämäinen toiminta",
+                        "points": 1,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711504,
+                        "name": "Työkyvyn ja hyvinvoinnin ylläpitäminen",
+                        "points": 2,
+                        "required": true,
+                        "to_ref": 0
+                    },
+                    {
+                        "id": 3711505,
+                        "name": "Kestävän kehityksen edistäminen",
+                        "points": 1,
+                        "required": true,
+                        "to_ref": 0
+                    }
+                ]
+            }
+        ]
+    }
+}

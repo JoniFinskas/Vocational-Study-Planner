@@ -1,0 +1,17 @@
+.holder {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1.5em;
+    background-color: #fefefe;
+    overflow-y: auto;
+    max-height: calc(100vh - 65px - 38px)
+}
+.section::-webkit-scrollbar {
+    display: none!important;
+}
