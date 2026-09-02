@@ -1,6 +1,6 @@
-# Oma Hoks
+# Vocational Study Planner
 
-Oma Hoks is a student project from 2022. It was built to help plan Finnish vocational studies by academic year and study period.
+Vocational Study Planner, originally developed as Oma Hoks, is a student project from 2022. It was built to help plan Finnish vocational studies by academic year and study period.
 
 The project is kept online as an old portfolio piece. Its original scope and visual design are still easy to recognize, so it should not be treated as an example of the authors' current work.
 
