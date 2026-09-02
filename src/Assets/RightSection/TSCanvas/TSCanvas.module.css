@@ -1,0 +1,32 @@
+.closeButton {
+    position: fixed;
+    top: 124px;
+    right: 16px;
+    z-index: 201;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 42px;
+    padding: 8px 16px;
+    border: 2px solid #083464;
+    background: #ffffff;
+    color: #083464;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background: #ebebeb;
+}
+
+.closeButton:focus-visible {
+    outline: 3px solid #f28d00;
+    outline-offset: 2px;
+}
+
+.closeButton span {
+    color: #f28d00;
+    font-size: 24px;
+    line-height: 1;
+}

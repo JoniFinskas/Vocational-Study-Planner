@@ -23,7 +23,12 @@ function Header({ title, currentOp, requiredOp, opinnot, alotus }: any) {
 
     return (
         <header className={HeaderStyle.header}>
-            <img className={Logo.Logo} src={OmaHoksLogo} alt="Logo" />
+            <a
+                className={Logo.LogoLink}
+                href="/"
+                aria-label="Palaa päänäkymään">
+                <img className={Logo.Logo} src={OmaHoksLogo} alt="" />
+            </a>
 
             <h2 className={HeaderStyle.title}>{title}</h2>
             <div className={HeaderStyle.divider}></div>

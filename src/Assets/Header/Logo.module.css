@@ -1,3 +1,12 @@
+.LogoLink {
+    display: inline-flex;
+}
+
+.LogoLink:focus-visible {
+    outline: 3px solid #f28d00;
+    outline-offset: 2px;
+}
+
 .Logo {
     margin-top: 4px;
     width: 75px;

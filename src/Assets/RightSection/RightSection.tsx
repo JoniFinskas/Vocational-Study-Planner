@@ -44,7 +44,12 @@ function RightSection(props: any) {
                 setTargetElementName={props.setTargetElementName}
                 setParentElementName={props.setParentElementName}
             />
-            {ShowTavoiteNakyma ? <TSCanvas opinnot={props.opinnot} /> : null}
+            {ShowTavoiteNakyma ? (
+                <TSCanvas
+                    opinnot={props.opinnot}
+                    onClose={() => setShowTavoiteNakyma(false)}
+                />
+            ) : null}
         </div>
     );
 }

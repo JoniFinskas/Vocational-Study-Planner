@@ -71,7 +71,7 @@ function RSHeader(props: any) {
                             </button>
 
                             <button
-                                title="Näytä tavoiteseruranta"
+                                title="Näytä tavoiteseuranta"
                                 className={RSHeaderStyle.tglBtn}
                                 onClick={() => props.setShowTavoiteNakyma(null)}>
                                 <span className={RSHeaderStyle.tglBtnTitle}>Tavoiteseuranta</span>

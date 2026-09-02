@@ -1,7 +1,17 @@
 import { useEffect, useRef } from 'react';
+import TSCanvasStyle from './TSCanvas.module.css';
 
-export default function TSCanvas({ opinnot }) {
+export default function TSCanvas({ opinnot, onClose }) {
     const canvasRef = useRef(null);
+
+    useEffect(() => {
+        const closeOnEscape = (event) => {
+            if (event.key === 'Escape') onClose();
+        };
+
+        document.addEventListener('keydown', closeOnEscape);
+        return () => document.removeEventListener('keydown', closeOnEscape);
+    }, [onClose]);
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -108,5 +118,18 @@ export default function TSCanvas({ opinnot }) {
         drawText(10, 30, 'Opintopisteet', 'black', 13);
     }, [opinnot]);
 
-    return <canvas id="Tavoite-seuranta" ref={canvasRef} />;
+    return (
+        <>
+            <canvas id="Tavoite-seuranta" ref={canvasRef} />
+            <button
+                type="button"
+                className={TSCanvasStyle.closeButton}
+                onClick={onClose}
+                aria-label="Sulje tavoiteseuranta"
+                autoFocus>
+                <span aria-hidden="true">×</span>
+                Sulje
+            </button>
+        </>
+    );
 }
